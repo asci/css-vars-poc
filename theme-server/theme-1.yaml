@@ -1,0 +1,16 @@
+generic:
+  font:
+    primary:
+      family: "sans-serif"
+      size: "14px"
+  color:
+    accent: &accent "rgb(33, 166, 208)"
+    primary: &primary "rgb(190, 231, 40)"
+    text: &text "#333"
+text:
+  color: *text
+button:
+  border-radius: "0"
+  color:
+    bg: *accent
+    main: *primary

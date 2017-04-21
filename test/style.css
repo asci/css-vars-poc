@@ -1,0 +1,12 @@
+.button {
+  background-color: var(--tx-button-color-bg);
+  border-radius: var(--tx-button-border-radius);
+  border: 1px solid var(--tx-button-color-main);
+  color: var(--tx-button-color-main);
+  padding: 5px 10px;
+}
+
+.text {
+  color: var(--tx-text-color);
+  font-family: var(--tx-generic-font-primary-family);
+}
