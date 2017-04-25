@@ -1,5 +1,5 @@
 (function() {
-    window.TravixTheme = {
+  window.TravixTheme = {
 	"tx-generic-font-primary-family": "serif",
 	"tx-generic-font-primary-size": "14px",
 	"tx-generic-color-accent": "rgb(161, 39, 138)",
@@ -11,4 +11,4 @@
 	"tx-button-color-main": "#ff83d9"
 };
 
-  }());
+}());
