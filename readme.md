@@ -46,10 +46,3 @@ Main idea to get rid of all SCSS variables you need for theming.
 
 ## Fallback is included
 I wrote and test small script with bring some power of CSS Vars to old browsers.
-```js
-"use strict";[].forEach.call(document.querySelectorAll("[data-cssvars]"),function(e){var t=e.href,n=new
-XMLHttpRequest;n.open("GET",t,!0),n.onreadystatechange=function(){if(4===n.readyState&&(200===n.status
-||0===n.status)){var e=document.createElement("style");document.head.appendChild(e),
-e.innerText=n.responseText.split("\n").join("").replace(/var\(--([\w-]+)\)/g,function(e,t){
-return(window.TravixTheme||{})[t]})}},n.send(null)});
-```
